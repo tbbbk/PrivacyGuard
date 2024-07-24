@@ -1,13 +1,8 @@
-# SGG-GCN
+# Beyond Visual Appearances: Privacy-sensitive Objects Identification via Hybrid Graph Reasoning
 
-train gcn ./train/train.py 最基础模型
+This is the official implementation of PrivayGuard.
 
-train han ./han/privacy_han.py 基础han
+# Dataset
 
-train han ./han/han_with_link.py han结合link
-
-train han ./han/han_bias_loss.py loss有偏差
-
-train line_graph ./line_model/train.py 线图
-
-查看pth ./pth文件夹
+- Privacy1000: [Click Here](https://drive.google.com/file/d/16NU2MB6Nyh0SAnJGoCH662ALves7KLSL/view?usp=drive_link)
+- Mosaic: [Click Here](https://drive.google.com/file/d/1FgLwOerDPAAHNikFRTRmvBR8fOUTiP6h/view?usp=drive_link)
