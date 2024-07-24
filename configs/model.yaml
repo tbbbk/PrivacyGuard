@@ -1,0 +1,21 @@
+project_dir: "/home/zhuohang/SGG-GCN"
+model:
+  # seed: 123
+  seed: 13720
+  box_topk: 25
+  with_link: False
+  node:
+    num_categories: 151
+    embedding_dim: 25
+  relationship:
+    num_relations: 51
+    embedding_dim: 25
+    trust_val: 0.43
+  input_layer:
+    input_layer_dim: 25
+  hidden_layer:
+    hidden_layer_dim: 64
+  output_layer:
+    output_dim: 2
+
+

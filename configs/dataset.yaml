@@ -1,0 +1,26 @@
+base_dir: "/home/zhuohang/SGG-GCN/datasets"
+dataset:
+  privacy_dataset_1000:
+    img_dir: "/home/zhuohang/SGG-GCN/datasets/image_Dataset/privacy_dataset_1000"
+    sgg_dir: "/home/zhuohang/SGG-GCN/datasets/SGG_Dataset/privacy_dataset_1000"
+    privacy_image_num: 949
+    public_image_num: 1000
+  fake_img_1000:
+    img_dir: "/home/zhuohang/SGG-GCN/datasets/image_Dataset/fakeimg_1000"
+    sgg_dir: "/home/zhuohang/SGG-GCN/datasets/SGG_Dataset/fake_img"
+    image_num: 1000
+    package_num: 14
+    sum_num: 13384
+  mosaic:
+    img_dir: "/home/zhuohang/SGG-GCN/datasets/image_Dataset/mosaic"
+    sgg_dir: "/home/zhuohang/SGG-GCN/datasets/SGG_Dataset/mosaic"
+    sum_num: 13384
+  reltr_privacy_dataset_1000:
+    img_dir: "/home/zhuohang/SGG-GCN/datasets/image_Dataset/reltr_privacy_dataset_1000"
+    sgg_dir: "/home/zhuohang/SGG-GCN/datasets/SGG_Dataset/reltr_privacy_dataset_1000"
+    privacy_image_num: 949
+    public_image_num: 1000
+  reltr_mosaic:
+    img_dir: "/home/zhuohang/SGG-GCN/datasets/image_Dataset/mosaic"
+    sgg_dir: "/home/zhuohang/SGG-GCN/datasets/SGG_Dataset/mosaic"
+    sum_num: 13098

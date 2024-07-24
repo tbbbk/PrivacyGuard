@@ -1,0 +1,13 @@
+*.jpg
+*.txt
+**custom_data_info.json
+**custom_prediction.json
+test*.*
+todolist.md
+**.pth
+*.sh
+other/
+*-*-*/
+privacy_img
+*.pyc
+*.json
